@@ -1,0 +1,176 @@
+/*First page*/
+.smile{
+    position: absolute;
+    top: 2px;
+    left: 16px;
+}
+.header {
+    background-image: url('Images/Object.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 800px; 
+    position: relative;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    position: absolute;
+    top: 2px;
+    right: 16px;
+}
+.navbar ul li a {
+    color: white;
+    float: right;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none
+}
+.title{
+    align-items: center;
+}
+
+.presenter-section{
+     background-color: rgb(175, 13, 175);
+     text-align: center;
+     padding: 2rem;
+}
+.image{
+    color: white;
+}
+.presenter{
+    color: white;
+}
+
+/*Popular tutorials page*/
+.most-text{
+    font-size: 36px;
+    color: black;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.popular-text{
+    font-size: 36px;
+    color: purple;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.tutorials-text{
+    font-size: 36px;
+    color: black;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.minutes{
+    color: purple;
+}
+.name{
+    color: rgb(219, 123, 219);
+}
+.main{
+    text-align: center;
+    padding: 2rem;
+}
+
+/*Membership page*/
+.member{
+    background-color: rgb(2, 2, 20);
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+.member p{
+    font-size: 15px;
+}
+.free-text{
+    font-size: 36px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.membership-text{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.register-button{
+color: white;
+background-color: plum;
+border: none;
+padding: 5px 10px;
+text-align: center;
+display: block;
+margin: 4px 2px;
+border-radius: 16px;
+}
+
+/*FAQ Section*/
+.faq{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white; 
+    width: 800px;
+}
+.faq-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40px;
+}
+.faq-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+.grid-container{
+  border-radius: 0.5em;
+  padding: 20px;
+  width: 500px;
+  font: 1.2em sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/*footer page*/
+.footer {
+    background-color: rgb(2, 2, 20);
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.logo{
+    align-items: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+    }
+.icons{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: white; 
+    font-size: 1.2rem;
+    
+}
+.copyright{
+    font-size: 0.9rem;
+    text-align: right;
+}
